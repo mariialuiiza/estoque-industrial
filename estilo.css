@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+a {
+    color: #333;
+}
+
+button {
+    padding: 6px 12px;
+    background-color: #eee;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+input {
+    padding: 5px;
+    margin: 4px 0 10px 0;
+}
+
+select {
+    padding: 5px;
+    margin: 4px 0 10px 0;
+}
+
+label {
+    display: block;
+}
+
+.topo {
+    border-bottom: 1px solid #999;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.usuario {
+    text-align: right;
+}
+
+.usuario a {
+    display: block;
+    margin-top: 8px;
+}
+
+.principal {
+    margin-top: 20px;
+}
+
+.container {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.login-container {
+    width: 350px;
+    margin: 60px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.login-container h1,
+.login-container h2 {
+    text-align: center;
+}
+
+.login-container input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    width: 100%;
+}
+
+.resumo {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.caixa {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 180px;
+}
+
+.caixa strong {
+    display: block;
+    font-size: 25px;
+}
+
+.caixa span {
+    display: block;
+    margin-top: 5px;
+}
+
+.opcoes {
+    display: flex;
+    gap: 20px;
+}
+
+.opcao {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 280px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #eee;
+    border: 1px solid #999;
+    padding: 6px 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.alerta {
+    background-color: #fff3cd;
+    border: 1px solid #e0c36d;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.erro {
+    background-color: #f5d5d5;
+    border: 1px solid #c99999;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.sucesso {
+    background-color: #dff0d8;
+    border: 1px solid #a8c98f;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+hr {
+    margin: 25px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 15px;
+    width: 100%;
+    font-size: 13px;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 6px;
+    text-align: left;
+}
+
+th {
+    background-color: #eee;
+}
